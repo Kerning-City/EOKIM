@@ -1,9 +1,5 @@
-아래는 마크다운 형식으로 정리한 Docker 미션 절차 및 코드입니다.  
-이 파일을 `docker_mission.md` 로 저장하면 됩니다.  
 
----
 
-```markdown
 # 🚀 Docker 기반 Java 애플리케이션 배포 절차
 
 ## ✅ 1. 목표  
@@ -95,10 +91,3 @@ docker run -d -p 8080:8080 --name javaapp eoteagyu/javaapp:1.0
 docker pull eoteagyu/javaapp:1.0
 docker run -d -p 8080:8080 --name javaapp eoteagyu/javaapp:1.0
 ```
-> **완료!** 🎉
-```
-
----
-
-이제 위 내용을 `docker_mission.md` 파일로 저장하고 활용하면 됩니다!  
-필요하면 추가 내용이나 개선할 부분 알려줘 😆
