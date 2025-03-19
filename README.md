@@ -12,7 +12,7 @@
 
 ## ✅ 2. Dockerfile 작성 (최적화, 경량화)
 ```dockerfile
-FROM openjdk:17-slim
+FROM eclipse-temurin:17-jre-alpine
 
 WORKDIR /app
 
@@ -23,7 +23,7 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "step01_basic_t-0.0.1-SNAPSHOT.jar"]
 ```
 > 👉 `openjdk:17-slim` 사용: 가벼운 실행용 이미지  
-
+> 👉 이미지 크기 : 205MB
 ---
 
 ## ✅ 3. Docker 이미지 빌드
